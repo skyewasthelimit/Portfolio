@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <script src="main.js"></script>
+    <title>Skyewasthelimit Portfolio</title>
+</head>
+<body>
+
+<navbar class="pages">
+    <div class="navbar">
+        <a href="coding.html"><button class="coding">Coding</button></a>
+        <a href="streaming.html"><button class="streaming">Streaming</button></a>
+        <a href="pictures.html"><button class="pictures">Pictures</button></a>
+        <a href="music.html"><button class="music">Music</button></a>
+        <a href="socials.html"><button class="socials">Socials</button></a>
+    </div>
+    <a href="main.html"><img class="logo" src="./assets/Retrowasthelimitno glow.png" alt="skyewasthelimit"></img></a>
+</navbar>
+
+    <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+    <div id="<player div ID>" class="stream"></div>
+    <script type="text/javascript" class="videoplayer">
+      var options = {
+        width: 1280,
+        height: 720,
+        channel: "skyewasthelimit"
+      };
+      var player = new Twitch.Player("<player div ID>", options);
+      player.setVolume(0.5);
+    </script>
+
+  <div class="footer">
+    <div class="navbar">
+        <a href="coding.html"><button class="coding">Coding</button></a>
+        <a href="streaming.html"><button class="streaming">Streaming</button></a>
+        <a href="pictures.html"><button class="pictures">Pictures</button></a>
+        <a href="music.html"><button class="music">Music</button></a>
+        <a href="socials.html"><button class="socials">Socials</button></a>
+    </div>
+  </div>
+  <script src="https://embed.twitch.tv/embed/v1.js"></script>
+</body>
+</html>
