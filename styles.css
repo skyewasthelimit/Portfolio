@@ -123,22 +123,47 @@ body {
 
 .pictures:hover {
     background-color: rgb(228, 137, 19);
+    color: #050801;
+    box-shadow: 0 0 5px rgb(228, 137, 19),
+                0 0 25px rgb(228, 137, 19),
+                0 0 50px rgb(228, 137, 19);
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
 
 .coding:hover {
     background-color: aqua;
+    color: #050801;
+    box-shadow: 0 0 5px aqua,
+                0 0 25px aqua,
+                0 0 50px aqua;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
 
 .streaming:hover {
     background-color: darkorchid;
+    color: #050801;
+    box-shadow: 0 0 5px darkorchid,
+                0 0 25px darkorchid,
+                0 0 50px darkorchid;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
 
 .music:hover {
-    background-color: mediumblue;
+    background-color: rgb(43, 43, 182);
+    color: #050801;
+    box-shadow: 0 0 5px rgb(43, 43, 182),
+                0 0 25px rgb(43, 43, 182),
+                0 0 50px rgb(43, 43, 182);
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
 
 .socials:hover {
     background-color: rgb(72, 0, 205);
+    color: #050801;
+    box-shadow: 0 0 5px rgb(72, 0, 205),
+                0 0 25px rgb(72, 0, 205),
+                0 0 50px rgb(72, 0, 205);
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
 
 .main {
@@ -147,9 +172,11 @@ body {
 }
 
 .bio-text {
-    font-family: monospace;
+    font-family:Arial, Helvetica, sans-serif;
     color: whitesmoke;
-    font-size: 16px;
+    font-size: 17px;
+    letter-spacing: 0.9px;
+    
 }
 
 .bio-text {
@@ -193,10 +220,6 @@ h1 {
 .github {
     width: 50vw;
     height: 100%;
-}
-
-.logo:hover {
-    background-color: midnightblue;
 }
 
 .github:hover {
@@ -254,6 +277,13 @@ h2 {
 h2:hover {
     background-color: blueviolet;
     border: 1px solid whitesmoke;
+    color: #050801;
+    opacity: 80%;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #fd6cea,
+                0 0 50px #03e9f4;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+    
 }
 
 .links-panel {
@@ -261,4 +291,65 @@ h2:hover {
     margin-bottom: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+    color: #050801;
+    opacity: 80%;
+    box-shadow: 0 0 5px #03e9f4;
+    
+}
+
+.footer{
+    background-color: #0c0d0e;
+    padding-right: 120px;
+    display: flex;
+    justify-content: center;
+    padding: 1vh;
+}
+
+.contact {
+    margin-left: 36px;
+    color: whitesmoke;
+    background-color: rgb(3, 3, 27);
+    border-radius: 8%;
+    font-family:'Times New Roman', Times, serif;
+    border: 1px none;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.contact:hover {
+    background-color: #03e9f4;
+    color: #050801;
+    opacity: 80%;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #fd6cea;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+
+.neon {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding: 25px 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #03e9f4;
+    font-size: 12rem;
+    font-weight: bold;
+    transition: 0.5s;
+    margin-right: 70px;
+}
+
+.logo:hover {
+    background-color: #03e9f4;
+    color: #050801;
+    opacity: 80%;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #fd6cea,
+                0 0 50px #03e9f4;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+    
 }
